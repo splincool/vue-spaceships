@@ -6,11 +6,13 @@
       </div>
       <div v-else class="text-center">
         <h1>{{shipDetails.name}}</h1>
-        <p><b>Model:</b>{{shipDetails.model}}</p>
-        <p><b>Manufacturer:</b>{{shipDetails.manufacturer}}</p>
-        <p><b>Cost(in credits):</b>{{shipDetails.cost_in_credits}} </p>
-        <p><b>Crew:</b>{{shipDetails.crew}}</p>
-        <p><b>Hyperdrive Rating:</b>{{shipDetails.hyperdrive_rating}}</p>
+        <p><b>Model:</b> {{shipDetails.model}}</p>
+        <p><b>Manufacturer:</b> {{shipDetails.manufacturer}}</p>
+        <p><b>Cost(in credits):</b> {{shipDetails.cost_in_credits}} </p>
+        <p><b>Crew:</b> {{shipDetails.crew}}</p>
+        <p><b>Hyperdrive Rating:</b> {{shipDetails.hyperdrive_rating}}</p>
+        <p><b>Passengers:</b> {{shipDetails.passengers}}</p>
+        <p><b>Starship Class:</b> {{shipDetails.starship_class}}</p>
       </div>
     </b-col>
   </b-row>
